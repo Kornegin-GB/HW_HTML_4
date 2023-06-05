@@ -80,6 +80,10 @@ a{
    color: #AAAAAA;
 }
 
+.button-video:hover{
+   color: #F25822;
+}
+
 .button {
    width: 140px;
    height: 50px;
@@ -90,6 +94,10 @@ a{
    font-size: 15px;
    line-height: 18px;
    color: #FFFFFF;
+}
+
+.button:hover{
+   background: #f59775;
 }
 
 .blok-logos {
@@ -106,13 +114,14 @@ a{
    padding-top: 100px;
    padding-bottom: 100px;
    display: grid;
-   grid-template-columns: repeat(3, 310px);
+   grid-template-columns: repeat(3, 370px);
    justify-content: center;
    justify-items: center;
-   gap: 60px; 
+   gap: 30px; 
 }
 
 .item{
+   padding: 40px 30px 25px 30px;
    display: grid;
    align-items: center;
    justify-content: center;
@@ -146,7 +155,10 @@ a{
    font-size: 11px;
    line-height: 150%;
    color: #000000;
-   margin-bottom: 25px;
+}
+
+.button-top-item:hover{
+   color: #F25822;
 }
 
 .content{
